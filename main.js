@@ -15,6 +15,9 @@ for (let i = 0; i < botoes.length; i++) {
 
 const contadores = document.querySelectorAll(".contador");
 contadores[0].textContent = "Contagem regressiva";
+const tempoObjetivo2 = new Date("2009-02-09T00:00:00");
+const tempoObjetivo3 = new Date("2025-06-12T00:00:00");
+const tempoObjetivo4 = new Date("2009-11-10T00:00:00");
 
 function calculaTempo(tempoObjetivo) {
   let tempoAtual = new Date();
